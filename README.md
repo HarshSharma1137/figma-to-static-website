@@ -40,6 +40,10 @@ and improve layout, styling, and responsiveness skills.
 - Improve mobile responsiveness
 - Optimize CSS structure
 
+- Link of the site
+-  https://sprightly-blancmange-3183f2.netlify.app/
+-  
+
 ---
 This project reflects my ability to convert UI designs into clean and
 maintainable front-end code using standard web technologies.
