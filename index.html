@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Inter:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+ 
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#FA1239">
+  <link rel="icon" href="assets/mortarboard.png">
+  <meta name="description" content="ATS-optimized resumes crafted by HR experts to land more interviews.">
+  <style>html{background:#fff}</style>
+  
+</head>
+<body>
+  <!-- Primary header / navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="brand" aria-label="Brand">
+        <img class="brand-mark" src="assets/logo.svg" alt="Brand logo" width="232" height="58">
+      </div>
+      <nav class="main-nav" aria-label="Primary">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#about">About Us</a>
+        <a class="nav-link" href="#services">Our Services</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+        <a class="nav-link" href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-primary" href="#quote">Get a quote</a>
+      </div>
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+   <div id="mobile-menu" class="mobile-menu" hidden>
+  <div class="mobile-header">
+    <img src="assets/logo.svg" alt="Company Logo" class="mobile-logo">
+    <button class="close-menu" aria-label="Close menu">×</button>
+  </div>
+
+  <a class="mobile-link active" href="#">
+    <i class="icon">🏠</i> Home
+  </a>
+  <a class="mobile-link" href="#about">
+    <i class="icon">ℹ️</i> About Us
+  </a>
+  <a class="mobile-link" href="#services">
+    <i class="icon">⚙️</i> Our Services
+  </a>
+  <a class="mobile-link" href="#pricing">
+    <i class="icon">🏷️</i> Pricing
+  </a>
+  <a class="mobile-link" href="#faq">
+    <i class="icon">❓</i> FAQ
+  </a>
+
+  <a class="btn btn-primary contact-btn" href="#contact">Contact Us</a>
+</div>
+
+  </header>
+
+  <!-- Main content start -->
+  <main>
+    <!-- Hero section (matches Figma Hero Section frame) -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-inner">
+        <!-- Left side: hero copy block -->
+        <div class="hero-copy">
+          <h1 class="hero-title">Your Resume Deserves a yes let’s make it happen</h1>
+          <p class="hero-desc">If your resume isn’t getting responses, it’s time for an upgrade. Get an ATS-optimized resume crafted by HR experts to help you land more interviews. Our resumes are designed to get your foot in the door and place your name at the top of the shortlist.</p>
+          <div class="hero-actions">
+            <a class="btn btn-outline" href="#packages">Resume Pakages</a>
+            <a class="btn btn-primary" href="#contact">Contact us</a>
+          </div>
+          <div class="hero-underline" aria-hidden="true">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+          </div>
+        </div>
+
+        <!-- Right side: visual composition (ellipses, portrait, KPI card, rating pill) -->
+        <div class="hero-art">
+          <div class="circle circle-lg"></div>
+          <div class="circle circle-sm"></div>
+          <img class="hero-portrait" src="assets/hero-portrait-1d5fd5.png" alt="Happy young woman with backpack holding books and phone">
+
+          <div class="stat-card">
+            <div class="stat-icon">
+              <img src="assets/mortarboard.png" alt="Mortarboard" width="40" height="40">
+            </div>
+            <div class="stat-text">
+              <div class="stat-value">260+</div>
+              <div class="stat-label">Online Resume Created</div>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="rating-pill">
+          <div class="rating-value">4.9</div>
+          <div class="rating-block">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="star"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="star"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="star"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="star"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="star"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+            </div>
+            <div class="rating-label">Instructor Rating</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You Get header -->
+    <section class="features-header" aria-label="Section intro">
+      <div class="pill">What You Get</div>
+      <h2 class="features-heading">You’re Not Just <span>Another Applicant</span> And Your<br> Resume Shouldn’t Look Like One</h2>
+    </section>
+
+    <!-- Four-card row: About Us, Our Services, Pricing, FAQ -->
+    <section class="features-grid" aria-label="Quick links">
+      <a class="feature-card" href="#">
+        <img class="feature-image" src="assets/fig.png" alt="About Us illustration">
+        <h3 class="feature-title">A Resume Format That<br> Gets You Interviews</h3>
+        <p class="feature-desc">Get a professionally written, keyword-optimized resume that lands in recruiter inboxes.</p>
+      </a>
+      <a class="feature-card" href="#">
+        <img class="feature-image" src="assets/fig2.png" alt="Our Services illustration">
+        <h3 class="feature-title">A Cover Letter Style That<br> Stands Out Strong</h3>
+        <p class="feature-desc">Stand out with a cover letter that speaks directly to the role and reflects your strengths.</p>
+      </a>
+      <a class="feature-card" href="#">
+        <img class="feature-image" src="assets/fig3.png" alt="Pricing illustration">
+        <h3 class="feature-title">A LinkedIn Profile That<br> Works For You</h3>
+        <p class="feature-desc">Attract the right eyes, start conversations, and show up in recruiter searches.</p>
+      </a>
+       <a class="feature-card" href="#">
+        <img class="feature-image" src="assets/fig4.png" alt="Pricing illustration">
+        <h3 class="feature-title">An Interview Strategy That<br> BUilds Confidence</h3>
+        <p class="feature-desc">Interview preperation with real HR Professionals so you speak clearly confidently</p>
+      </a>
+      
+    </section>
+
+    
+  </main>
+
+  <script>
+    // Mobile navbar toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.getElementById('mobile-menu');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', () => {
+    const isOpen = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    if (isOpen) menu.removeAttribute('hidden');
+    else menu.setAttribute('hidden', '');
+  });
+});
+
+const toggle = document.querySelector('.nav-toggle');
+const menu = document.getElementById('mobile-menu');
+toggle.addEventListener('click', () => {
+  menu.classList.toggle('open');
+
+
+  
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    toggle.classList.toggle('active');
+    menu.classList.toggle('open');
+  });
+
+
+});
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.querySelector('.nav-toggle');
+  const closeBtn = document.querySelector('.close-menu');
+  const menu = document.getElementById('mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.add('open');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    menu.classList.remove('open');
+  });
+});
+
+</script>
+</body>
+</html>
+
+
